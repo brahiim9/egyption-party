@@ -1,0 +1,118 @@
+/*   sidebar    */
+.sidebarIcon {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    cursor: pointer;
+    top: 60%;
+    left: 20%;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+.sidebarInner{
+    padding: 10px;
+}
+.sidebarInner i{
+    transform: translateX(200px);
+    transition: all .3s;
+}
+.sidebarInner a {
+    text-decoration: none;
+    color: white;
+    transition: all .3s;
+}
+
+.sidebarInner li {
+    margin-bottom: 30px;
+}
+.sidebarInner i:hover{
+    color:rgba(214, 46, 51, 0.6) ;
+}
+.sidebarInner a:hover{
+    color:rgba(214, 46, 51, 0.6) ;
+}
+
+
+/*     Start Home     */
+
+#home {
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url(../imges/events-heavenly-header.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+#home h1 {
+    color: white;
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 500;
+}
+
+/*     Start Singers     */
+
+#singers h3 {
+    color: white;
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+#singers p {
+    color: rgb(33, 37, 41);
+    font-size: 20px;
+    background-color: #CCCCCC;
+    margin-bottom: 0;
+    padding: 10px;
+    display: none;
+}
+
+/*     Start countdown     */
+
+#Countdown {
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url(../imges/invitation-2508607__340.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.item {
+    padding: 40px;
+    border: 1px white solid;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+
+/*     Start  ContactUs    */
+
+#ContactUs p {
+    font-size: 18px;
+}
+
+.socials i {
+    color: #999;
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 45px;
+    height: 45px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    transition: all .5s;
+}
+
+#ContactUs .socials i:hover {
+    color: white;
+    border: none;
+    background-color: #D62E33;
+}
